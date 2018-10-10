@@ -19,6 +19,7 @@ function draw(){
         let g = random(255)
         let b = random(255)
         fill( r, g, b )
+        noStroke()
         for (let i = 0; i < 10; i++) {
             let s = i*10
             let y = mouseY + i*s/2
